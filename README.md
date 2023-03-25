@@ -1,2 +1,3 @@
 # reactProject-ZTM
-Familiarize myself with GitHub and terminal, also showcasing my react project code-along with Zero-to-Mastery Full Web Development Courses
+Familiarize myself with GitHub and terminal :octocat:
+Will be showcasing my react project :atom_symbol: code-along with Zero-to-Mastery Full Web Development Courses
