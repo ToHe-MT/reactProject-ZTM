@@ -1,0 +1,110 @@
+[
+  {
+    "color": "brown",
+    "type": "dog",
+    "size": "nano",
+    "name": "Lexi"
+  },
+  {
+    "color": "black",
+    "type": "cat",
+    "size": "nano",
+    "name": "Daisy"
+  },
+  {
+    "color": "brown",
+    "type": "cat",
+    "size": "nano",
+    "name": "Amelia"
+  },
+  {
+    "color": "white",
+    "type": "cat",
+    "size": "nano",
+    "name": "Gus"
+  },
+  {
+    "color": "gray",
+    "type": "cockatiel",
+    "size": "nano",
+    "name": "Lord of the Wings"
+  },
+  {
+    "color": "gray",
+    "type": "cockatiel",
+    "size": "nano",
+    "name": "Wingman"
+  },
+  {
+    "color": "red",
+    "type": "crab",
+    "size": "nano",
+    "name": "Prickl"
+  },
+  {
+    "color": "purple",
+    "type": "mod",
+    "size": "nano",
+    "name": "Bot"
+  },
+  {
+    "color": "gray",
+    "type": "totoro",
+    "size": "nano",
+    "name": "Coco"
+  },
+  {
+    "color": "white",
+    "type": "dog",
+    "size": "nano",
+    "name": "Coco"
+  },
+  {
+    "color": "white",
+    "type": "dog",
+    "size": "nano",
+    "name": "Whity"
+  },
+  {
+    "color": "red",
+    "type": "fox",
+    "size": "nano",
+    "name": "Kyubi"
+  },
+  {
+    "color": "white",
+    "type": "fox",
+    "size": "nano",
+    "name": "Conan"
+  },
+  {
+    "color": "gray",
+    "type": "cockatiel",
+    "size": "nano",
+    "name": "Kiko"
+  },
+  {
+    "color": "yellow",
+    "type": "rubber-duck",
+    "size": "nano",
+    "name": "Duck"
+  },
+  {
+    "color": "white",
+    "type": "rat",
+    "size": "nano",
+    "name": "Luna"
+  },
+  {
+    "color": "white",
+    "type": "dog",
+    "size": "nano",
+    "name": "Rusty"
+  },
+  {
+    "color": "white",
+    "type": "chicken",
+    "size": "nano",
+    "name": "Obi Wan Henobi"
+  }
+]
