@@ -1,29 +1,52 @@
-
 import 'tachyons'
-import {robots} from "./robots"
 import CardList from "./Components/CardList"
 import SearchBar from './Components/SearchBar';
-import React from 'react';
+import React, {Component} from 'react';
+import Scroll from "./Containers/Scroll"
+import ErrorBoundary from './Components/ErrorBoundary';
 
-class App extends React.Component() {
+class App extends Component {
   constructor(){
     super();
-    this.state={
-      robots: robots,
+    this.state = {
+      robots: [],
       searchfield: "",
     }
   }
-  render () {
-    return (
-      <div className="App">
-        <h1 className='tc'>Kitten Furrends</h1>
-        <SearchBar/>
-        <div className="CardsContainer tc ">
-          <CardList robots={robots}/>
-        </div>
-      </div>
-    );
+
+  componentDidMount(){
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response =>response.json())
+      .then(users=> this.setState({robots: users}))
   }
+
+  onSearchChange = (event) => {
+    this.setState({ searchfield: event.target.value});
+  }
+
+  render (){
+    const { robots, searchfield} = this.state;
+    
+    const filteredRobot = robots.filter(robot => {
+      return robot.name.toLowerCase().includes(searchfield.toLowerCase())
+    })
+
+    if (!robots.length) {
+      return <h1 className='tc pa3 br3'>Loading</h1>
+    } else {
+        return (
+          <div className="tc">
+            <h1 className='tc'>Kitten Furrends</h1>
+              <SearchBar searchChange = {this.onSearchChange}/>
+            <Scroll style={{ width: 250, height: 250 }} className="CardsContainer tc">
+              <ErrorBoundary>
+                <CardList robots={filteredRobot}/>
+              </ErrorBoundary>
+            </Scroll>
+          </div>
+        )
+    }
+  } 
 }
 
 export default App;
