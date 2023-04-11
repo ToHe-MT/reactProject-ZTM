@@ -3,7 +3,8 @@ import CardList from "./Components/CardList"
 import SearchBar from './Components/SearchBar';
 import React, {Component} from 'react';
 import Scroll from "./Containers/Scroll"
-import ErrorBoundary from './Components/ErrorBoundary';
+import ErrorBoundary from './Containers/ErrorBoundary';
+import "./app.css"
 
 class App extends Component {
   constructor(){
@@ -39,7 +40,7 @@ class App extends Component {
             <h1 className='tc'>Kitten Furrends</h1>
               <SearchBar searchChange = {this.onSearchChange}/>
             <Scroll style={{ width: 250, height: 250 }} className="CardsContainer tc">
-              <ErrorBoundary>
+              <ErrorBoundary className="CardsContainer">
                 <CardList robots={filteredRobot}/>
               </ErrorBoundary>
             </Scroll>
