@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/css/main.38ac5b03.css",
+    "main.js": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/js/main.46e9f347.js",
+    "static/js/787.ebaa048f.chunk.js": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/js/787.ebaa048f.chunk.js",
+    "index.html": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/index.html",
+    "main.38ac5b03.css.map": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/css/main.38ac5b03.css.map",
+    "main.46e9f347.js.map": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/js/main.46e9f347.js.map",
+    "787.ebaa048f.chunk.js.map": "/ToHe-MT/reactProject-ZTM/tree/main/robo-friends/static/js/787.ebaa048f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ac5b03.css",
+    "static/js/main.46e9f347.js"
+  ]
+}
