@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactProject-ZTM/static/css/main.38ac5b03.css",
-    "main.js": "/reactProject-ZTM/static/js/main.9a6efcd3.js",
+    "main.js": "/reactProject-ZTM/static/js/main.0eedfce6.js",
     "static/js/787.ebaa048f.chunk.js": "/reactProject-ZTM/static/js/787.ebaa048f.chunk.js",
     "index.html": "/reactProject-ZTM/index.html",
     "main.38ac5b03.css.map": "/reactProject-ZTM/static/css/main.38ac5b03.css.map",
-    "main.9a6efcd3.js.map": "/reactProject-ZTM/static/js/main.9a6efcd3.js.map",
+    "main.0eedfce6.js.map": "/reactProject-ZTM/static/js/main.0eedfce6.js.map",
     "787.ebaa048f.chunk.js.map": "/reactProject-ZTM/static/js/787.ebaa048f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38ac5b03.css",
-    "static/js/main.9a6efcd3.js"
+    "static/js/main.0eedfce6.js"
   ]
 }
